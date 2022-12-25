@@ -1,0 +1,208 @@
+* {
+    font-family: Verdana;
+    color:lightslategray;
+}
+html, body {
+    margin:0;
+    padding:0;
+}
+.nav ul {
+    margin:0;
+}
+.nav li {
+    display:inline;
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color:lightslategray;
+    text-decoration: none;
+}
+.nav
+{
+    text-align:center;
+    font-size :1.1em;
+    font-weight:lighter;
+    border-bottom: 1px solid ;  
+}
+.nav li{
+    padding:0 5%;
+}
+.name{
+    text-align: center;
+    margin:0;
+    font-size: 5em;
+    font-family:  'Garamond';
+    font-weight: normal;
+    color:lightslategray;
+}
+.main-header{
+    background-color: rgba(0,0,0,.6);
+    background-image: url("image/bg.jpg");
+    background-blend-mode: multiply ;
+    background-size: cover;
+    padding-bottom: 30px;
+    background-repeat: no-repeat;
+    padding: .5em ;
+    margin:0;
+}
+.content-header{
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    text-align:center;
+    font-size: 1.5em;
+    color: rgb(170, 5, 148);
+}
+.zoat-image{
+    float:left;
+    height:200px;
+    width:200px; 
+    margin: 10px;
+}
+.footer{
+    background-color: rgb(2, 13, 13);
+    color:aqua;
+    padding: 0.01em;
+    margin: 0;
+}
+.footer.nav li{
+    display: inline;
+    justify-content:space-around;
+
+}
+.footer.nav img{
+    width: 60px;
+    height: 60px;
+}
+.btn{
+    margin-bottom:0;
+    padding: 10px;
+    border-style: ridge;
+    border-radius: 5px;
+    border-style: none;
+    font-family:  Montserrat;
+    font-weight:bold ;
+    color:white;
+    background-color: red;
+}
+.shop-item{
+    margin:10px;
+    padding: 5px;
+    border-style: double;
+    border-width: 2px;
+    border-color: lightgray;
+    display:inline-table;
+}
+.item-title{
+    display: inline;
+    font-weight: bold;
+    font-size: 1.25em;
+    color:rgb(13, 28, 30);
+    margin-bottom: 15px;
+}
+.item-image{
+    height: 150px;
+    padding: 10px; 
+}
+.item-details{  
+    padding: 5px;
+    color:rgb(114, 190, 232) ; 
+}
+.item-name{
+    font-family: 'Courier New', Courier;
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+}
+.item-price{
+    color: black;
+    font-weight: bold;
+    font-size: small;
+}
+.textarea{
+   resize :none;
+   margin: 20px;
+   height:200px;
+   width:400px;
+   border-radius: 1em;
+   border-color:lightslategray;
+   border-width: 4px;
+   border-style: groove;
+   display: inline-block;
+}
+.paragraph{
+    margin:0%;
+    padding-bottom: 5%;
+}
+.flex-container{
+    display: flex;
+  justify-content: space-around;
+
+}
+.feedback-button{
+    height:35px;
+    margin-top:100px;
+    border-radius:5px;
+    border-color: red;
+    color:white;
+    background-color:red;
+}
+.search-button{
+    border-style: groove;
+    border-color:black;
+    color:black;
+    border-radius: 5px;
+    background-color: yellow;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.get-product{
+    border-style:groove;
+    border-color:black;
+    color: black;
+    border-radius:10px;
+    background-color:#eaeaea;
+    outline: none;
+}
+.sticky {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+.content-container1{
+    margin-top:40px;
+    padding-top: 100px;
+}
+.content-container2{
+    margin-top: 100px;
+    padding-top: 10px;
+}
+.content-container3
+{
+    margin-top:50px;
+    padding-top: 100px;  
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows:auto;
+    justify-content: space-around;
+    gap: 10px;
+    background-color:rgb(228, 191, 138);
+    padding: px;
+}
+grid-container  div {
+    padding: 20px;
+}
+.submitted{
+    color: red;
+    font-weight: bolder;
+}
+.form{
+    margin: 10px;
+}
+.submit{
+    color: red;
+}
+
+
+
